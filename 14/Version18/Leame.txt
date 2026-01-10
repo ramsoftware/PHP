@@ -1,0 +1,14 @@
+Uso de POO en PHP
+Paginación
+Orden al código
+Página de detalles
+Borrar
+Adicionar
+Editar
+Tabla estudiantes
+Trae las descripciones en consultas y detalle (uso de htmlentities)
+Componente Select2 para adicionar
+Componente trumbowyg para texto enriquecido y limitado para minimizar ataques de inyección HTML
+Edición
+Subir foto
+Elegir país y luego ciudad
