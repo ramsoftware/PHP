@@ -1,0 +1,1 @@
+Muestra las bases de datos, tablas y campos por tabla
