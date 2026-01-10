@@ -1,0 +1,33 @@
+<!DOCTYPE HTML><html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<title>Colores [CRUD]</title>
+</head>
+<body>
+<div class="container-fluid">
+	<table id="comun" class="table table-striped table-sm">
+		<tr>
+			<td colspan="4" class="text-center">Tabla Colores: Operaciones CRUD (Create, Read, Update, Delete)</td>
+		</tr>
+	</table>
+	<a href="../../visual/colores/adicionar.html" class="btn btn-success" style="margin-right: 10px;">Adicionar</a>
+	<a href="colores.php?PosTabla=0" class="btn btn-secondary" style="margin-right: 10px;">Inicio</a>
+	<a href="colores.php?PosTabla={anterior}" class="btn btn-secondary" style="margin-right: 10px;">&larr; Anterior</a>
+	<a href="colores.php?PosTabla={siguiente}" class="btn btn-secondary" style="margin-right: 10px;" >Siguiente &rarr;</a>
+	<br><br>
+	<table id="table" class="table table-striped table-bordered table-hover table-sm" >
+		<thead>
+		<tr>
+			<th class='col-md-auto'>Nombre</th>
+			<th class='col-md-auto'>Acción</th>
+		</tr>
+		</thead>
+		{Datos}
+	</table>
+</div>
+</body>
+</html>

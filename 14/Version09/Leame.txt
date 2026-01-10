@@ -1,0 +1,13 @@
+Uso de POO en PHP
+Paginación
+Orden al código
+Página de detalles
+Borrar
+Adicionar
+Editar
+
+Se adiciona Buscar
+¡OJO! Es vulnerable a un ataque de inyección SQL, Usar:
+p%'; drop table estudiantes;
+
+Ejercicio: Haga la consulta con la tabla "profesiones" y "paises"
