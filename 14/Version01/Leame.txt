@@ -1,0 +1,3 @@
+﻿Conexión a la base de datos
+
+Ejercicio: Haga la consulta con la tabla "profesiones" y "paises"
