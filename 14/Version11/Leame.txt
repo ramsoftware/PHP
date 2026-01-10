@@ -1,0 +1,8 @@
+Uso de POO en PHP
+Paginación
+Orden al código
+Página de detalles
+Borrar
+Adicionar
+Editar
+Tabla estudiantes (más compleja)
